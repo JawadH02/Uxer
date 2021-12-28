@@ -36,6 +36,25 @@
                         Let's Talk!</a>
                 </li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+                <span class="hamburger"></span>
+            </button>
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <span class="hamburger"></span>
+            </button>
+            <div class="menu__backdrop">
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Books</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <header>
             <div class="header__container">
@@ -162,7 +181,7 @@
                         </figure>
                     </div>
                     <div class="project project--flip">
-                        <div class="projects__description">
+                        <div class="projects__description project__description--QOVESStudio-align">
                             <h1 class="projects__description--title">
                                 QOVESStudio
                             </h1>
@@ -208,6 +227,8 @@
             <div class="footer__row">
                 <figure class="footer__img--figure">
                     <img src="./assets/test.svg" alt="" class="footer__img">
+                </figure>
+                <figure class="footer__img--figure-rocket-triangle">
                     <img src="./assets/Rocket_Button.svg" alt="" class="footer__rocket--btn">
                     <img src="./assets/triangle_v2 .svg" alt="" class="footer__triangle--img">
                 </figure>
@@ -215,31 +236,20 @@
                     <h1 class="footer__heading">
                         Interested in working with us?
                     </h1>
-                    <!-- </div>
-                <ul class="footer__link--list">
-                    <li class="nav__link">
-                        <a href="#" class="
-                            footer__link--anchor 
-                            link__hover-effect 
-                            link__hover-effect--black">
-                            About Us</a>
-                    </li>
-                    <li class="footer__link">
-                        <a href="#" class="
-                            footer__link--anchor 
-                            link__hover-effect
-                            link__hover-effect--black">
-                            Contact Us</a>
-                    </li>
-                    <li class="footer__link">
-                        <a href="#" class="
-                            footer__link--anchor">
-                            Get a Quote</a>
-                    </li>
-                </ul> -->
+                </div>
+                <div class="footer">
+                    <div class="footer__list">
+                        <a href="#" class="footer__link footer__link--primary">Uxer</a>
+                        <a href="#" class="footer__link no-curser">About Us</a>
+                        <a href="#" class="footer__link">Contact Us</a>
+                        <a href="#" class="footer__link no-curser">Get a Quote</a>
+                    </div>
                 </div>
             </div>
+        </div>
     </footer>
 </body>
+
+<script src="index.js"></script>
 
 </html>
