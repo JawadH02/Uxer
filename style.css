@@ -59,7 +59,7 @@ LANDING PAGE
     top: 300px;
     right: 0;
     max-width: 760px;
-    height: 80vh;
+    height: 90%;
     object-fit: cover;
 }
 
@@ -654,6 +654,7 @@ footer {
 
     .header__img--saly {
         top: 320px;
+        height: 70%;
         right: -30px;
     }
 
